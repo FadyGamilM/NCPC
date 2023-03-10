@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/NCPC/static/css/main.b47cd8b2.css",
+    "main.js": "/NCPC/static/js/main.ac46bbd7.js",
+    "static/media/img1.jpg": "/NCPC/static/media/img1.3b4d8372bb9a1c0c36d6.jpg",
+    "static/media/img6.jpg": "/NCPC/static/media/img6.df76f3a7cdb6fd555be2.jpg",
+    "static/media/img7.jpg": "/NCPC/static/media/img7.104332880a38de5696b1.jpg",
+    "static/media/img8.jpg": "/NCPC/static/media/img8.db35d93fffb4600d324f.jpg",
+    "static/media/img2.jpg": "/NCPC/static/media/img2.23b6f6012e901ceb9747.jpg",
+    "static/media/img3.jpg": "/NCPC/static/media/img3.e51fa9ddce062fce1984.jpg",
+    "static/media/img4.jpg": "/NCPC/static/media/img4.73280887c6d9371ad3b8.jpg",
+    "index.html": "/NCPC/index.html",
+    "main.b47cd8b2.css.map": "/NCPC/static/css/main.b47cd8b2.css.map",
+    "main.ac46bbd7.js.map": "/NCPC/static/js/main.ac46bbd7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b47cd8b2.css",
+    "static/js/main.ac46bbd7.js"
+  ]
+}
