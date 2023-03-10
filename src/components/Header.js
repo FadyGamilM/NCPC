@@ -1,10 +1,10 @@
 import React from "react";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+// import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const Header = () => {
 	return (
 		// <div className="border-b-4 border-slate-600 mb-8 pb-2 grid grid-cols-2 text-center">
-		<div className="border-b-4 border-slate-600 pb-2 flex justify-between text-center items-center">
+		<div className="border-b-4 border-slate-600 pb-2 flex justify-between text-center items-center container mx-auto">
 			{/*//! Logo */}
 			<div>
 				<img
@@ -16,13 +16,13 @@ const Header = () => {
 			{/*//! Menu */}
 			<div className=" flex items-center text-center justify-center">
 				<ul className="flex gap-16">
-					<li className="shadow-xl p-2 rounded-2xl bg-slate-100 font-standard text-slate-800 text-2xl font-bold cursor-pointer hover:text-slate-900 hover:scale-110 transition ease-in-out hover:underline hover:underline-offset-8">
+					<li className="shadow-xl p-2 rounded-2xl bg-darkBlue font-standard text-slate-50 text-2xl font-bold cursor-pointer  hover:scale-110 transition ease-in-out hover:underline hover:underline-offset-8">
 						من نحن{" "}
 					</li>
-					<li className="shadow-xl p-2 rounded-2xl bg-slate-100 font-standard text-slate-800 text-2xl font-bold cursor-pointer hover:text-slate-900 hover:scale-110 transition ease-in-out hover:underline hover:underline-offset-8">
+					<li className="shadow-xl p-2 rounded-2xl bg-darkBlue font-standard text-slate-50 text-2xl font-bold cursor-pointer  hover:scale-110 transition ease-in-out hover:underline hover:underline-offset-8">
 						القطاعات
 					</li>
-					<li className="shadow-xl p-2 rounded-2xl bg-slate-100 font-standard text-slate-800 text-2xl font-bold cursor-pointer hover:text-slate-900 hover:scale-110 transition ease-in-out hover:underline hover:underline-offset-8">
+					<li className="shadow-xl p-2 rounded-2xl bg-darkBlue font-standard text-slate-50 text-2xl font-bold cursor-pointer hover:scale-110 transition ease-in-out hover:underline hover:underline-offset-8">
 						تواصل معنا
 					</li>
 				</ul>

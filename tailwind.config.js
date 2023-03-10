@@ -9,6 +9,9 @@ module.exports = {
 			screens: {
 				twoCols: "1030px",
 			},
+			colors: {
+				darkBlue: "#0E1D35",
+			},
 		},
 	},
 	plugins: [],

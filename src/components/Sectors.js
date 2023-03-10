@@ -2,7 +2,7 @@ import React from "react";
 
 const Sectors = () => {
 	return (
-		<div className="w-full px-4 mx-auto grid twoCols:grid-cols-3 gap-8 mb-8">
+		<div className="w-full px-4 mx-auto grid twoCols:grid-cols-3 gap-8 mb-0 container mx-auto border-b-4 border-slate-600 pb-8 ">
 			{/* //! mohamed nagib */}
 			<div className="cursor-pointer hover:scale-105 transition duration-500 ease-in-out w-full mx-auto items-center text-center justify-center mt-8 border-2 border-slate-500 rounded-2xl shadow-2xl p-2">
 				<div className="flex items-center text-center my-4 justify-center mt-[-2rem]">
