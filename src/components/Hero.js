@@ -1,6 +1,6 @@
-import { delay } from "q";
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
+import Typed from "react-typed";
 
 const slides = [
 	{
@@ -34,7 +34,7 @@ const Hero = () => {
 		setCurrentSlide(newSlide);
 	};
 	return (
-		<div className="p-4 relative border-b-4 border-slate-600 pb-4 group">
+		<div className="relative border-b-4 border-slate-600 pb-4 group">
 			{/* //! The Image  */}
 			<div className="w-full flex items-center justify-center relative h-10/12 blur-sm rounded-2xl bg-center bg-cover duration-500 h-full">
 				<img
@@ -58,9 +58,21 @@ const Hero = () => {
 				/>
 			</div>
 			{/* //! Text inside the image slider */}
-			<div className="hover:cursor-pointer hover:scale-110 transition ease-in-out flex flex-col gap-y-2 items-center justify-center md:text-2xl  lg:text-4xl top-1/2 left-1/2 absolute font-bold -translate-x-1/2 -translate-y-3/4  shadow-2xl p-2 ">
+			<div className="hover:cursor-pointer hover:scale-110 transition ease-in-out flex flex-col gap-y-2 items-center justify-center md:text-2xl  lg:text-4xl top-1/2 left-1/2 absolute font-bold -translate-x-1/2 -translate-y-1/2  shadow-2xl p-2 ">
 				<p>الشركة الوطنية للزراعات المحمية</p>
-				<p>NCPC</p>
+				<p>
+					<Typed
+						className="text-slate-800 text-2xl"
+						strings={[
+							"NCPC",
+							"National Company for Protected Cultivation",
+							"جهاز مشروعات الخدمة الوطنية",
+						]}
+						typeSpeed={120}
+						backSpeed={140}
+						loop
+					/>
+				</p>
 			</div>
 		</div>
 	);

@@ -6,6 +6,9 @@ module.exports = {
 			fontFamily: {
 				standard: "Tajawal",
 			},
+			screens: {
+				twoCols: "1030px",
+			},
 		},
 	},
 	plugins: [],

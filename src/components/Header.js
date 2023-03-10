@@ -4,7 +4,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 const Header = () => {
 	return (
 		// <div className="border-b-4 border-slate-600 mb-8 pb-2 grid grid-cols-2 text-center">
-		<div className="border-b-4 border-slate-600 mb-8 pb-2 flex justify-between text-center items-center">
+		<div className="border-b-4 border-slate-600 pb-2 flex justify-between text-center items-center">
 			{/*//! Logo */}
 			<div>
 				<img
