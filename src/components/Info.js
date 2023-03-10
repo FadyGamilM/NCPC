@@ -2,7 +2,7 @@ import React from "react";
 
 const Info = () => {
 	return (
-		<div className="w-full twoCols:grid-cols-2 sm:grid-cols-1 sm:grid sm:gap-y-8 twoCols:gap-x-8 text-center">
+		<div className="w-full twoCols:grid-cols-2 sm:grid-cols-1 sm:grid sm:gap-y-8 twoCols:gap-x-8 text-center border-b-4 border-slate-600 pb-4">
 			<div className="mx-auto">
 				<img
 					className="rounded-2xl shadow-2xl"
@@ -12,7 +12,7 @@ const Info = () => {
 			</div>
 
 			<div className="flex flex-col items-end gap-y-14 justify-center">
-				<h1 className="bg-slate-600 p-3 rounded-full text-slate-50 text-4xl font-bold font-standard">
+				<h1 className="bg-slate-600 hover:bg-slate-800 hover:cursor-pointer transition ease-in-out p-3 rounded-full text-slate-50 text-4xl font-bold font-standard">
 					من نحن ؟
 				</h1>
 				<p className="text-slate-700 font-bold font-standard text-xl">
