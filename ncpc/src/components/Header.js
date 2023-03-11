@@ -16,15 +16,22 @@ const Header = () => {
 			{/*//! Menu */}
 			<div className=" flex items-center text-center justify-center">
 				<ul className="flex gap-16">
-					<li className="shadow-xl p-2 rounded-2xl bg-darkBlue font-standard text-slate-50 text-2xl font-bold cursor-pointer  hover:scale-110 transition ease-in-out hover:underline hover:underline-offset-8">
-						من نحن{" "}
-					</li>
-					<li className="shadow-xl p-2 rounded-2xl bg-darkBlue font-standard text-slate-50 text-2xl font-bold cursor-pointer  hover:scale-110 transition ease-in-out hover:underline hover:underline-offset-8">
-						القطاعات
-					</li>
-					<li className="shadow-xl p-2 rounded-2xl bg-darkBlue font-standard text-slate-50 text-2xl font-bold cursor-pointer hover:scale-110 transition ease-in-out hover:underline hover:underline-offset-8">
-						تواصل معنا
-					</li>
+					<a href="#whoWeAre">
+						<li className="shadow-xl p-2 rounded-2xl bg-darkBlue font-standard text-slate-50 text-2xl font-bold cursor-pointer  hover:scale-110 transition ease-in-out hover:underline hover:underline-offset-8">
+							من نحن{" "}
+						</li>
+					</a>
+					<a href="#sectors">
+						<li className="shadow-xl p-2 rounded-2xl bg-darkBlue font-standard text-slate-50 text-2xl font-bold cursor-pointer  hover:scale-110 transition ease-in-out hover:underline hover:underline-offset-8">
+							القطاعات
+						</li>
+					</a>
+
+					<a href="#contact">
+						<li className="shadow-xl p-2 rounded-2xl bg-darkBlue font-standard text-slate-50 text-2xl font-bold cursor-pointer hover:scale-110 transition ease-in-out hover:underline hover:underline-offset-8">
+							تواصل معنا
+						</li>
+					</a>
 				</ul>
 			</div>
 

@@ -4,7 +4,7 @@ import { MdLocationOn, MdEmail } from "react-icons/md";
 
 const Contact = () => {
 	return (
-		<div className="bg-darkBlue w-full p-2 mb-1">
+		<div id="contact" className="bg-darkBlue w-full p-2 mb-1">
 			<div className="text-end">
 				<p className="font-standard font-bold text-3xl text-slate-50 px-1">
 					: يمكنك الاتصال وتقديم الشكاوى والمقترحات عن طريق

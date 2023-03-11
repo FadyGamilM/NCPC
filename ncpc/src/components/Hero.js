@@ -83,7 +83,7 @@ const Hero = () => {
 			</div>
 			{/* //! Text inside the image slider */}
 			<div className="w-2/3 hover:cursor-pointer hover:scale-110 transition ease-in-out flex flex-col gap-y-2 items-center justify-center md:text-2xl  lg:text-4xl top-1/2 left-1/2 absolute font-bold -translate-x-1/2 -translate-y-1/2  shadow-2xl p-2 ">
-				<p className="text-slate-900 text-5xl">
+				<p className="text-slate-900 text-4xl twoCols:text-5xl">
 					الشركة الوطنية للزراعات المحمية
 				</p>
 				<p>

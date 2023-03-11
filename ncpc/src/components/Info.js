@@ -2,7 +2,10 @@ import React from "react";
 
 const Info = () => {
 	return (
-		<div className="w-full twoCols:grid-cols-2 sm:grid-cols-1 sm:grid sm:gap-y-8 twoCols:gap-x-8 text-center border-b-4 border-slate-600 pb-4 container mx-auto">
+		<div
+			id="whoWeAre"
+			className=" w-full twoCols:grid-cols-2 sm:grid-cols-1 sm:grid sm:gap-y-8 twoCols:gap-x-8 text-center border-b-4 border-slate-600 pb-4 container mx-auto"
+		>
 			<div className="mx-auto">
 				<img
 					className="rounded-2xl shadow-2xl"
