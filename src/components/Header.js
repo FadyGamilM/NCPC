@@ -6,7 +6,7 @@ import logo from "../ncpcLogo.png";
 const Header = () => {
   return (
     // <div className="border-b-4 border-slate-600 mb-8 pb-2 grid grid-cols-2 text-center">
-    <div className="bg-darkBlue px-2 flex justify-between text-center items-center  w-full rounded-lg top-0 sticky">
+    <div className="bg-darkBlue px-2 flex justify-between text-center items-center  w-full rounded-lg top-0 sticky z-30">
       {/*//! Logo */}
       <div className="bg-white m-4 opacity-90 rounded-3xl">
         <img

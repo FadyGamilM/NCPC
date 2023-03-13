@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillMessage } from "react-icons/ai";
 import { GiNightVision, GiAchievement } from "react-icons/gi";
+import Management from "./Management";
 const Info = () => {
   return (
     <div className="border-b-4 border-slate-600 pb-4 container mx-auto">
@@ -33,25 +34,56 @@ const Info = () => {
       </div>
 
       <div className="w-full px-4 grid twoCols:grid-cols-3 gap-8 text-center py-4 pt-10">
-        <div className="grid grid-rows-2 items-center justify-center">
-          <AiFillMessage className="mx-11 text-2xl text-darkBlue" />
-          <p className="text-4xl text-darkBlue font-standard font-extrabold">
-            الرسالة
+        <div className="hover:scale-110 transition ease-in-out shadow-2xl p-2 rounded-xl bg-slate-50 hover:cursor-pointer">
+          <div className="grid grid-rows-2 items-center justify-center">
+            <AiFillMessage className="mx-11 text-2xl text-darkBlue" />
+            <p className="text-4xl text-darkBlue font-standard font-extrabold">
+              الرسالة
+            </p>
+          </div>
+          <p className="text-lg pt-2 text-blue-800 font-standard font-bold">
+            الشركة الوطنية للزراعات المحمية هي شركة مساهمة حكومية مصرية، تابعة
+            لجهاز مشروعات الخدمة الوطنية للقوات المسلحة أحد أجهزة وزارة الدفاع،
+            أنشأت سنة 2016 بهدف تحقيق الاكتفاء الذاتي من الخضروات والفاكهة من
+            خلال الزراعة في الصوب الزجاجية، ويبلغ الصوب المستخدمة والجاري
+            إنشائها في مشروعات الشركة حوالي 100 ألف صوبة.
           </p>
         </div>
-        <div className="grid grid-rows-2 items-center justify-center">
-          <GiNightVision className="mx-11 text-2xl text-darkBlue" />
-          <p className="text-4xl text-darkBlue font-standard font-extrabold">
-            الرؤية
+        <div className="  bg-slate-50 hover:scale-110 transition ease-in-out shadow-2xl p-2 rounded-xl  hover:cursor-pointer">
+          <div className="grid grid-rows-2 items-center justify-center">
+            <GiNightVision className="mx-11 text-2xl text-darkBlue" />
+            <p className="text-4xl text-darkBlue font-standard font-extrabold">
+              الرؤية
+            </p>
+          </div>
+          <p className="text-lg pt-2 text-blue-800 font-standard font-bold">
+            الشركة الوطنية للزراعات المحمية هي شركة مساهمة حكومية مصرية، تابعة
+            لجهاز مشروعات الخدمة الوطنية للقوات المسلحة أحد أجهزة وزارة الدفاع،
+            أنشأت سنة 2016 بهدف تحقيق الاكتفاء الذاتي من الخضروات والفاكهة من
+            خلال الزراعة في الصوب الزجاجية، ويبلغ الصوب المستخدمة والجاري
+            إنشائها في مشروعات الشركة حوالي 100 ألف صوبة.
           </p>
         </div>
-        <div className="grid grid-rows-2 items-center justify-center">
-          <GiAchievement className="mx-11 text-2xl text-darkBlue" />
-          <p className="text-4xl text-darkBlue font-standard font-extrabold">
-            الهدف
+        <div className="hover:scale-110 transition ease-in-out shadow-2xl p-2 rounded-xl  bg-slate-50  hover:cursor-pointer">
+          <div className="grid grid-rows-2 items-center justify-center">
+            <GiAchievement className="mx-11 text-2xl text-darkBlue" />
+            <p className="text-4xl text-darkBlue font-standard font-extrabold">
+              الهدف
+            </p>
+          </div>
+          <p className="text-lg pt-2 text-blue-800 font-standard font-bold">
+            الشركة الوطنية للزراعات المحمية هي شركة مساهمة حكومية مصرية، تابعة
+            لجهاز مشروعات الخدمة الوطنية للقوات المسلحة أحد أجهزة وزارة الدفاع،
+            أنشأت سنة 2016 بهدف تحقيق الاكتفاء الذاتي من الخضروات والفاكهة من
+            خلال الزراعة في الصوب الزجاجية، ويبلغ الصوب المستخدمة والجاري
+            إنشائها في مشروعات الشركة حوالي 100 ألف صوبة.
           </p>
         </div>
       </div>
+
+      {/* <div className="w-full px-4 grid">
+        <Management />
+      </div> */}
     </div>
   );
 };
