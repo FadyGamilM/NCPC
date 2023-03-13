@@ -1,5 +1,6 @@
 import React from "react";
-
+import { AiFillMessage } from "react-icons/ai";
+import { GiNightVision, GiAchievement } from "react-icons/gi";
 const Info = () => {
   return (
     <div className="border-b-4 border-slate-600 pb-4 container mx-auto">
@@ -30,15 +31,25 @@ const Info = () => {
           </p>
         </div>
       </div>
-      <div className="w-full px-4 grid twoCols:grid-cols-3 gap-8 border-2 text-center py-4">
-        <div>
-          <p className="text-4xl"></p>
+
+      <div className="w-full px-4 grid twoCols:grid-cols-3 gap-8 text-center py-4 pt-10">
+        <div className="grid grid-rows-2 items-center justify-center">
+          <AiFillMessage className="mx-11 text-2xl text-darkBlue" />
+          <p className="text-4xl text-darkBlue font-standard font-extrabold">
+            الرسالة
+          </p>
         </div>
-        <div>
-          <p>الرسالة</p>
+        <div className="grid grid-rows-2 items-center justify-center">
+          <GiNightVision className="mx-11 text-2xl text-darkBlue" />
+          <p className="text-4xl text-darkBlue font-standard font-extrabold">
+            الرؤية
+          </p>
         </div>
-        <div>
-          <p>الهدف</p>
+        <div className="grid grid-rows-2 items-center justify-center">
+          <GiAchievement className="mx-11 text-2xl text-darkBlue" />
+          <p className="text-4xl text-darkBlue font-standard font-extrabold">
+            الهدف
+          </p>
         </div>
       </div>
     </div>

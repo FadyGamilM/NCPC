@@ -1,22 +1,16 @@
 import React from "react";
 import logo from "../ncpcLogo.png";
-// import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
-//https://scontent.fcai20-2.fna.fbcdn.net/v/t39.30808-6/308743387_547362540525323_2902925620335403646_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=8FaTSZqsx5QAX9jNLHJ&_nc_ht=scontent.fcai20-2.fna&oh=00_AfA-6l1IwpyS0lSPUpk-lgBTu58-JrBNM_OWdDofC-62AA&oe=640FD6AB
-
-// NOTES :
-/*
-
-6/2 الحي الثاني المنطقة الثانية التجمع الخامس*/
+// 6/2 الحي الثاني المنطقة الثانية التجمع الخامس*/
 
 const Header = () => {
   return (
     // <div className="border-b-4 border-slate-600 mb-8 pb-2 grid grid-cols-2 text-center">
-    <div className="bg-darkBlue px-2 border-b-4 border-slate-600 flex justify-between text-center items-center  w-full rounded-lg">
+    <div className="bg-darkBlue px-2 flex justify-between text-center items-center  w-full rounded-lg top-0 sticky">
       {/*//! Logo */}
-      <div className="bg-white m-4 opacity-90  rounded-3xl">
+      <div className="bg-white m-4 opacity-90 rounded-3xl">
         <img
-          className="w-62 h-28 shadow-xl rounded-lg hover:cursor-pointer"
+          className="w-62 h-14 shadow-xl rounded-lg hover:cursor-pointer"
           src={logo}
           alt="logo"
         />

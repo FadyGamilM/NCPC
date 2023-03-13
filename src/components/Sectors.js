@@ -33,7 +33,27 @@ const Sectors = () => {
       <div className="cursor-pointer hover:scale-105 transition duration-500 ease-in-out w-full mx-auto items-center text-center justify-center mt-8 border-2 border-slate-500 rounded-2xl shadow-2xl p-2">
         <div className="flex items-center text-center my-4 justify-center mt-[-2rem]">
           <p className="font-standard text-2xl bg-slate-500 p-2 rounded-xl font-bold text-slate-50">
-            قطاع أبو سلـطــان
+            (1) قطاع أبو سلـطــان
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://www.presidency.eg/media/100977/%D9%85%D8%B2%D8%B1%D8%B9%D9%87-%D8%AC%D9%86%D9%88%D8%A8-%D8%A7%D8%A8%D9%88-%D8%B3%D9%84%D8%B7%D8%A7%D9%86jpg.jpg"
+            alt="sector abu sultan"
+          />
+        </div>
+        <div className="text-center items-center justify-center">
+          <p className="font-standard text-xl font-bold p-2">
+            تقع جنوب منطقة أبو سلطان في محافظة الإسماعيلية على مساحة 12500 فدان،
+            تحتوي على 2350 صوبة زجاجية، بمساحة 2.5 فدان للصوبة الواحدة.
+          </p>
+        </div>
+      </div>
+      {/* abu sultan 2 */}
+      <div className="cursor-pointer hover:scale-105 transition duration-500 ease-in-out w-full mx-auto items-center text-center justify-center mt-8 border-2 border-slate-500 rounded-2xl shadow-2xl p-2">
+        <div className="flex items-center text-center my-4 justify-center mt-[-2rem]">
+          <p className="font-standard text-2xl bg-slate-500 p-2 rounded-xl font-bold text-slate-50">
+            (2) قطاع أبو سلـطــان
           </p>
         </div>
         <div>
